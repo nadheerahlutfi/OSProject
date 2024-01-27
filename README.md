@@ -77,8 +77,7 @@ codespace
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
 1. Run the command **pwd** . ***(1 mark)*** __/workspaces/OSProject__.
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __
-root:x:0:0:root:/root:/bin/bash
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** __root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
 sys:x:3:3:sys:/dev:/usr/sbin/nologin
@@ -103,8 +102,7 @@ systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
 messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 codespace:x:1000:1000::/home/codespace:/bin/bash
 sshd:x:105:65534::/run/sshd:/usr/sbin/nologin__.
-4. Run the command **df** . ***(1 mark)*** __
-Filesystem     1K-blocks     Used Available Use% Mounted on
+4. Run the command **df** . ***(1 mark)*** __Filesystem     1K-blocks     Used Available Use% Mounted on
 overlay         32847680 13820792  17332792  45% /
 tmpfs              65536        0     65536   0% /dev
 shm                65536        0     65536   0% /dev/shm
