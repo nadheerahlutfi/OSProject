@@ -78,7 +78,7 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 
 1. Run the command **pwd** . ***(1 mark)*** __/workspaces/OSProject__.
 
-   <img src="./images/2.png" width="70%">
+   <img src="./images/1.png" width="70%">
    
 2. Run the command **cat /etc/passwd** . ***(1 mark)***
    
