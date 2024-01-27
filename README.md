@@ -98,11 +98,27 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
    
    <img src="./images/5.png" width="70%">
    
-9. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
-10. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
-11. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
-12. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-13. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
+6. Run the command **ls -asl** . ***(1 mark)***
+
+   <img src="./images/6.png" width="70%">
+   
+7. Run the command **free -h** . ***(1 mark)***
+
+   <img src="./images/7.png" width="70%">
+   
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)***
+
+   <img src="./images/8.1.png" width="70%">
+   <img src="./images/8.2.png" width="70%">
+   
+9. Run the command **top** and type **q** to quit. ***(1 mark)***
+
+    <img src="./images/9.png" width="70%">
+    
+10. Run the command **uname -a**. ***(1 mark)***
+
+    <img src="./images/10.png" width="70%">
+    
 14. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
 15. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
 16. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
