@@ -121,8 +121,8 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
     
 14. What is the available free memory in the system. ***(1 mark)  150MiB*** 
 15. What is the available disk space mounted on /workspace. ***(1 mark)  17,332,792 KiB = 17.3 GB***
-16. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-17. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
+16. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark) version of the Linux virtual environment= 6.2.0-1018-azure and hardware architecture= x86_64*** 
+17. What is the difference between **ls** vs **ls -asl**. ***(1 mark) The "ls -asl" command provides a detailed listing of all files, including hidden files, along with their sizes in blocks, whereas "ls" provides a basic listing of files and directories without detailed information.*** 
 18. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 19. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 197. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
