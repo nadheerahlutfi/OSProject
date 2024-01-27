@@ -119,8 +119,8 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 
     <img src="./images/10.png" width="70%">
     
-14. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-15. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
+14. What is the available free memory in the system. ***(1 mark)  150MiB*** 
+15. What is the available disk space mounted on /workspace. ***(1 mark)  17,332,792 KiB = 17.3 GB***
 16. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
 17. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
 18. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
