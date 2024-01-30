@@ -212,7 +212,7 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+<img src="./images/Ques2.PS.png" width="70%">
 
 ## You are on your own, create your own static webpage
 
