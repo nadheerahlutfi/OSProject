@@ -206,8 +206,8 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 ***Questions:***
 
 1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** 
-    <img src="./images/Ques1.PS.png" width="70%"> <br>
-    ***__User = codespace__*** <br><br>
+    <img src="./images/Ques1.PS.png" width="60%"> <br>
+    ***__User = codespace__*** <br>
     ***__Group = codespace__***
 
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
@@ -244,7 +244,7 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** 
     <img src="./images/Ques1.SW.png" width="70%"> <br>
-    ***__User = codespace__*** <br><br>
+    ***__User = codespace__*** <br>
     ***__Group = codespace__***
    
 2. What port is the apache web server running. ***(1 mark)***
