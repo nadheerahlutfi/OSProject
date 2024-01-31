@@ -216,7 +216,7 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 sudo chown -R codespace:codespace myroot
 
 ```
-<img src="./images/Ques2.PS.png" width="80%">
+   <img src="./images/Ques2.PS.png" width="75%">
 
 ## You are on your own, create your own static webpage
 
