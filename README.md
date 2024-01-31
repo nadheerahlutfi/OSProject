@@ -205,8 +205,8 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** 
-    <img src="./images/Ques1.PS.png" width="60%"> <br>
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** <br>
+    <img src="./images/Ques1.PS.png" width="50%"> <br>
     ***__User = codespace__*** <br>
     ***__Group = codespace__***
 
@@ -216,7 +216,7 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 sudo chown -R codespace:codespace myroot
 
 ```
-<img src="./images/Ques2.PS.png" width="70%">
+<img src="./images/Ques2.PS.png" width="80%">
 
 ## You are on your own, create your own static webpage
 
