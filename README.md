@@ -24,8 +24,8 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository. ***(1 mark)*** https://github.com/nadheerahlutfi/OSProject)
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+1. What is the link of the fork OSProject in your repository. ***(1 mark) https://github.com/nadheerahlutfi/OSProject)***
+2. How many files and folders are in this repository. ***(1 mark) __2 folders__.***
 
 
 ## Exploring github codespaces
@@ -76,23 +76,56 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** __Fill answer here__.
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
-3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
-4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+1. Run the command **pwd** . ***(1 mark)*** __/workspaces/OSProject__.
+
+   <img src="./images/1.png" width="70%">
+   
+2. Run the command **cat /etc/passwd** . ***(1 mark)***
+   
+   <img src="./images/2.png" width="70%">
+
+3. Run the command **df** . ***(1 mark)***
+   
+   <img src="./images/3.png" width="70%">
+   
+4. Run the command **du** . ***(1 mark)***
+   
+   <img src="./images/4.1.png" width="70%">
+   <img src="./images/4.2.png" width="70%">
+   <img src="./images/4.3.png" width="70%">
+   
+5. Run the command **ls** . ***(1 mark)***
+   
+   <img src="./images/5.png" width="70%">
+   
+6. Run the command **ls -asl** . ***(1 mark)***
+
+   <img src="./images/6.png" width="70%">
+   
+7. Run the command **free -h** . ***(1 mark)***
+
+   <img src="./images/7.png" width="70%">
+   
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)***
+
+   <img src="./images/8.1.png" width="70%">
+   <img src="./images/8.2.png" width="70%">
+   
+9. Run the command **top** and type **q** to quit. ***(1 mark)***
+
+    <img src="./images/9.png" width="70%">
+    
+10. Run the command **uname -a**. ***(1 mark)***
+
+    <img src="./images/10.png" width="70%">
+    
+14. What is the available free memory in the system. ***(1 mark)  __150MiB__*** 
+15. What is the available disk space mounted on /workspace. ***(1 mark)  __17,332,792 KiB = 17.3 GB__***
+16. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark) __version of the Linux virtual environment= 6.2.0-1018-azure and hardware architecture= x86_64__*** 
+17. What is the difference between **ls** vs **ls -asl**. ***(1 mark) __The "ls -asl" command provides a detailed listing of all files, including hidden files, along with their sizes in blocks, whereas "ls" provides a basic listing of files and directories without detailed information.__*** 
+18. What is the TLB size of the Virtual CPU. ***(1 mark) __2560 4K pages__*** 
+19. What is the CPU speed of the Virtual CPU. ***(1 mark) __First CPU speed: 3243.448 MHz and Second CPU speed: 3243.699 MHz__*** 
+197. What is the top running process that consumes the most CPU cycles. ***(1 mark) __PID= 13905 and CPU usage= 2.0%__*** 
 
 ## Running your own container instance.
 
@@ -152,8 +185,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark) __No, they are not persistent. Once you remove or stop the file, any changes made will be lost. They are designed to be lightweight and ephemeral__.***
+2. Can we run two, or three instances of debian linux? . ***(1 mark) __Yes, it is possible to run more than one instances in a time__.***
 
 ## Running your own container with persistent storage
 
@@ -172,14 +205,18 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** <br>
+    <img src="./images/Ques1.PS.png" width="50%"> <br>
+    ***__User = codespace__*** <br>
+    ***__Group = codespace__***
+
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+   <img src="./images/Ques2.PS.png" width="75%">
 
 ## You are on your own, create your own static webpage
 
@@ -205,9 +242,17 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** 
+    <img src="./images/Ques1.SW.png" width="70%"> <br>
+    ***__User = codespace__*** <br>
+    ***__Group = codespace__***
+   
 2. What port is the apache web server running. ***(1 mark)***
-3. What port is open for http protocol on the host machine? ***(1 mark)***
+    <img src="./images/Ques2.SW.png" width="70%"><br>
+    ***__Port = 8080__***
+   
+3. What port is open for http protocol on the host machine? ***(1 mark)*** <br>
+    ***Port open for http protocol= 8080__***
 
 ## What to submit
 
